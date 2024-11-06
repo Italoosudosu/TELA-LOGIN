@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Joti+One&family=Metrophobic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Joti One;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Joti One;
+}
+
+.logo h1 {
+  font-family: Joti One;
+  font-size: 5rem;
+  gap: 40px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Necessário para posicionar o ícone */
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.button i {
+  position: absolute;
+  left: 10px; /* Posição do ícone */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #000000;
+}
+
+.button input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Espaçamento para o ícone */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button input::placeholder {
+  color: black;
+}
+.button form {
+  gap: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px; /* Adiciona preenchimento interno */
+  margin-bottom: 15px; /* Espaçamento abaixo dos inputs */
+  font-size: 16px; /* Define o tamanho da fonte */
+}
+
+.teste {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.teste a {
+  padding: 10px 40px;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 20px;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+.teste :hover {
+  color: red;
+  background-color: black;
+}
+
+/* box quadrado */
+.quadrado {
+  width: 350px; /* Largura do quadrado */
+  height: auto; /* Altura automática para ajustar ao conteúdo */
+  padding: 20px; /* Preenchimento interno */
+  border: 1px solid #000; /* Borda do quadrado */
+  border-radius: 10px; /* Arredonda os cantos */
+  background-color: rgba(#390001, #321e1f, 1, 0.5); /* Cor de fundo */
+  box-shadow: 0 4px 8px rgba(194, 5, 5, 0.2); /* Sombra para dar destaque */
+  margin: 50px auto; /* Centraliza na página */
+  text-align: center; /* Centraliza o texto */
+  background-image: linear-gradient(#f70408, #321E1F, #f10509 );
+}
+
+/*  teste placeholder */
+.input-container {
+  position: relative; /* Necessário para posicionar o ícone */
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.input-container input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; /* Espaçamento para o ícone */
+  font-size: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+} 
+.input-container input::placeholder {
+  color: #bbb;
+}
+ .label-nome{ 
+  justify-content: left;
+  
+ }
+
+
+ .label-senha{
+  justify-content: left;
+  
+ }
